@@ -1,15 +1,17 @@
-
+@import url('https://fonts.google.com/specimen/Tilt+Neon');
 @media (min-width:1200px ) {
     body{
         background-color: white;
-        
         margin: 0%;
         padding: 0%;
         overflow: hidden;
+        display: flexbox;
+        font-family: 'Tilt Neon' sans-serif;
         }  
 
     #page1{
-        
+        display:grid;
+        position: fixed;
         background-image: url(school.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -17,42 +19,86 @@
         height: 100vh;
         opacity: 0.9;
      filter: brightness(0.3);
-     position: absolute;
+     z-index: -1;
     }
     #p1gora{
         width: 100%;
-        position:absolute;
         display: inline-flex;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;    
         font-size: 20px;
         margin-top:0%;
-        margin-left: 7%;
         
     }
 #home{
-    display: flex;
+    margin-left: 7%;
     margin-right: 5%;
 }
 #aboutus{
-    display: flex;
-    margin-right:22%;
+ 
+    margin-right:18%;
 }
 #title{
-    display: flex;
-    margin-right: 26%;
+    margin-top: 1%;
+    font-size: 30px;
+
+    margin-right: 22%;
 }
 #course{
-    display: flex;
+
     margin-right: 2%;
 }
 #blog{
-    display: flex;
-    margin-right: 0%;
+
+    margin-right: 7%;
 }
+#maintitle{
+    margin-top: 6%;
+    text-align: center;
+    color: white;
 
+}
+#maintitletxt{
+    font-size: 70px;
+}
+#mainlorem{
+    margin-top: -2%;
+    font-size: 15px;
+}
+#mainbuttons{
+    margin-top: 2%;
+    display: inline-flex;
+    color:white;
+    justify-content: center;
+    width: 100%;    
+}
+#mb1{
+  border:1px blue solid;
+  width: 200px; 
+  height: 40px;
+  background-color: blue;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin-left: 0%;
+  margin-right: 10%;
 
-
+}
+#mb2{
+    border:1px white solid;
+    width: 200px; 
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+#page2{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
 
 
 
