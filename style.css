@@ -8,6 +8,8 @@
         display: flexbox;
         font-family: 'Belanosima', sans-serif;
         overflow-x: hidden;
+        display: flexbox;
+        justify-content: center;
         }  
 
     #page1{
@@ -101,11 +103,12 @@
     display: flexbox;
     width: 100%;
     height: 100vh;
+
 }
 
 #page2title{
-    margin-left: 6%;
-    margin-top: 6%;
+    margin-left: 10%;
+    margin-top: 4%;
     display: inline-flex;
     width: 100%;
     height: 50px;
@@ -118,12 +121,12 @@
 }
 #p2l{
     margin-top: 3%;
-margin-left: 8%;
+margin-left: 6%;
 }
 #p2i{
-    margin-top: 5%;
+    margin-top: 3%;
     display: flex;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 #p2i1{
     border-radius: 25px;
@@ -148,6 +151,7 @@ margin-left: 8%;
     font-size: 30px;
     margin-top: 15%;
     text-align: center;
+    justify-content: center;
     margin-bottom: 0%;
 }
 #p2ibt2{
@@ -157,11 +161,15 @@ margin-left: 8%;
     margin-bottom: 3%;
 }
 #p2ib img{
-    display: inline-flex;
+    display: inline;
     border-radius: 25px;
 }
+#Students{
+    display: flex;
+justify-content: center;
+}
 #lewy{
-    margin-left: 20%;
+    margin-left:0%;
 }
 #ronaldo{
     margin-left: -10%;
@@ -169,4 +177,54 @@ margin-left: 8%;
 #messi{
     margin-left: -10%;
 }
+#p2blorem{
+    font-size: 15px;
+    font-weight:10;
+    margin-top: 8%;
+    margin-left: 0%;
+}
+#underloremb{
+    background-color: blue;
+    border: 1px blue solid;
+    border-radius: 25px;
+    width: 220px;
+    height: 38px;
+    margin-left: 0%;
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+    line-height: 38px;
+    font-size: 20px;
+}
+#rightboxes{
+    justify-content: space-around;
+    display: flex;
+    margin-left: 9%;
+    flex-direction: column;
+    margin-bottom: 0%;
+    margin-right: 3%;
+}
+#rbox{
+    margin-bottom: 14%;
+    border: 1px white solid;
+    border-radius: 25px;
+    background-color: white;
+    width: 150px;
+    height: 100px;
+}
+#p2rb1{
+    color: blue;
+    font-size: 25px;
+    margin-top: 15% ;
+    text-align: center;
+    margin-bottom: 0%;
+}
+#p2rb2{
+    margin-top: 2%;
+    text-align: center;
+}
+#r2{
+flex-direction: column;
+}
+
 }
