@@ -8,8 +8,11 @@
         display: flexbox;
         font-family: 'Belanosima', sans-serif;
         overflow-x: hidden;
-        display: flexbox;
         justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+
         }  
 
     #page1{
@@ -250,7 +253,7 @@ flex-direction: column;
 #p3box{
     display: inline-block;
     margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 6%;
     width: 300px;
     height: 130px;
     background-color: blue;
@@ -263,7 +266,7 @@ flex-direction: column;
 #inline{
     display: inline-flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
 }
 #inline2{
     display: inline-flex;
@@ -288,5 +291,31 @@ flex-direction: column;
     margin-left:33%;
     margin-top: -5%;
     font-size: 15px;
+}
+#p3p11{
+    display: flex;
+    margin-left: 35%;
+    font-size: 25px;
+    margin-top: -25%;
+
+}
+#p3p21{
+    margin-left:35%;
+    margin-top: -5%;
+    font-size: 15px;
+}
+#p3boxunder{
+    margin-top: 3%;
+    display: flex;
+    margin-left: 43%;
+    justify-content: center;
+    border: 1px blue solid;
+    color:white;
+    background-color: blue;
+    border-radius: 25px;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
 }
 }
