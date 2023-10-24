@@ -39,7 +39,7 @@ body {
         display: inline-flex;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 20px;
+        font-size: 15px;
         margin-top:0%;
         justify-content: space-between;
         margin-bottom: 0%   ;
@@ -354,16 +354,18 @@ flex-direction: column;
     color: blue;
     font-size: 40px;
     text-align: center;
+    height: 60px;
 }
 #p4ltitle{
     width: 1200px;
     text-align: center;
     font-weight: 100;
     font-size: 15px;
-    margin-top: 2%;
+    margin-top: 0%;
+    height: 20px;
 }
 #workingtogether{
-    margin-top: 4%;
+    margin-top: 2%;
     margin-left: 6%;
     width: 450px;
     height: 400px;
@@ -384,7 +386,7 @@ flex-direction: column;
 
     flex-direction: column;
     margin-left: 4%;
-    margin-top: 2%;
+    margin-top: 0%;
     margin-bottom: -0%; 
     width: 100%;
     font-size: 20px;
@@ -485,13 +487,12 @@ flex-direction: column;
     width: 1200px;
     height: 800px;
     z-index: 0;
-    margin-left: -10%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 #p6inlinetitle{
     display: inline-flex;
     margin-top: 2%;
-    margin-left: 8%;
-    margin-right: 8%;
     width: 100%;
     height: 120px;
 }
@@ -517,7 +518,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #p6box{
     display: inline-flex;
-    width: 100%;
+    width: 1200px;
     height: 80%;
     margin-left: 0%;
     margin-top: 3%;
@@ -525,8 +526,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: space-between;
 }
 #p6box section{
-    width: 300px;
-    height: 80%;
+    width: 250px;
+    height:400px;
     border:5px rgb(180, 180, 180) solid; 
     border-radius: 25px;
 }
@@ -535,7 +536,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 0%;
 }
 #p6box1 img{
-    width: 300px;
+    width:250px;
     height: 40%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -565,7 +566,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
 }
 #p6box2 img{
-    width: 300px;
+    width: 250px;
     height: 40%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -575,7 +576,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 1%;
 }
 #p6box3 img{
-    width: 300px;
+    width: 250px;
     height: 40%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
